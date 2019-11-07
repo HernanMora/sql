@@ -100,6 +100,45 @@ public class TestUtils {
                 "}";
     }
 
+<<<<<<< HEAD
+=======
+    public static String getDogs2IndexMapping() {
+        return "{  \"dog\": {" +
+                " \"properties\": {\n" +
+                "          \"holdersName\": {\n" +
+                "            \"type\": \"keyword\"\n" +
+                "          }"+
+                "       }"+
+                "   }" +
+                "}";
+    }
+
+    public static String getDogs3IndexMapping() {
+        return "{  \"dog\": {" +
+                " \"properties\": {\n" +
+                "          \"holdersName\": {\n" +
+                "            \"type\": \"keyword\"\n" +
+                "          },\n"+
+                "          \"color\": {\n" +
+                "            \"type\": \"text\"\n" +
+                "          }"+
+                "       }"+
+                "   }" +
+                "}";
+    }
+
+    public static String getPeople2IndexMapping() {
+        return "{  \"people\": {" +
+                " \"properties\": {\n" +
+                "          \"firstname\": {\n" +
+                "            \"type\": \"keyword\"\n" +
+                "          }"+
+                "       }"+
+                "   }" +
+                "}";
+    }
+
+>>>>>>> f23f30b... [Fix #46] support multi-indices query with compatible mappings. Give … (#84)
     public static String getGameOfThronesIndexMapping() {
         return "{  \"gotCharacters\": { " +
                 " \"properties\": {\n" +

@@ -183,6 +183,17 @@ public abstract class SQLIntegTestCase extends ESIntegTestCase {
                 "dog",
                 TestUtils.getDogIndexMapping(),
                 "src/test/resources/dogs.json"),
+<<<<<<< HEAD
+=======
+        DOGS2(TestsConstants.TEST_INDEX_DOG2,
+                "dog",
+                TestUtils.getDogs2IndexMapping(),
+                "src/test/resources/dogs2.json"),
+        DOGS3(TestsConstants.TEST_INDEX_DOG3,
+                "dog",
+                TestUtils.getDogs3IndexMapping(),
+                "src/test/resources/dogs3.json"),
+>>>>>>> f23f30b... [Fix #46] support multi-indices query with compatible mappings. Give … (#84)
         PEOPLE(TestsConstants.TEST_INDEX_PEOPLE,
                 "people",
                 null,

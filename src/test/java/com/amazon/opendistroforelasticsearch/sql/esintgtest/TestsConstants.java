@@ -27,6 +27,11 @@ public class TestsConstants {
     public final static String TEST_INDEX_ACCOUNT_TEMP = TEST_INDEX + "_account_temp";
     public final static String TEST_INDEX_PHRASE = TEST_INDEX + "_phrase";
     public final static String TEST_INDEX_DOG = TEST_INDEX + "_dog";
+<<<<<<< HEAD
+=======
+    public final static String TEST_INDEX_DOG2 = TEST_INDEX + "_dog2";
+    public final static String TEST_INDEX_DOG3 = TEST_INDEX + "_dog3";
+>>>>>>> f23f30b... [Fix #46] support multi-indices query with compatible mappings. Give … (#84)
     public final static String TEST_INDEX_PEOPLE = TEST_INDEX + "_people";
     public final static String TEST_INDEX_GAME_OF_THRONES = TEST_INDEX + "_game_of_thrones";
     public final static String TEST_INDEX_SYSTEM = TEST_INDEX + "_system";
